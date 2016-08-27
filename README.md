@@ -7,16 +7,16 @@ Version 1.0
 
 ## Documentation
 
-$.debounce(callback, delay);
-callback - 	Required. The function that will be executed
-delay - Not required (default is 1000 millisecond). The number of milliseconds to wait before executing the code.
+$.debounce(callback, delay);  
+callback - 	Required. The function that will be executed  
+delay - Not required (default is 1000 millisecond). The number of milliseconds to wait before executing the code.  
 
 ## Code Example
 
-$('input').debounce(funxtion(val) {
-  // val - input value
-  console.log(val);
-}, 2000);
+$('input').debounce(funxtion(val) {  
+  // val - input value  
+  console.log(val);  
+}, 2000);  
 
 ## License
 Code released under the <a href="https://github.com/DAkhsakhalyan/jqueryDebounce/blob/master/LICENSE.md">MIT license</a>
